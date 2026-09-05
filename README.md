@@ -1,8 +1,6 @@
 # Bearly Secure
 
-Bearly Secure is the intentionally vulnerable starter app for "Learn Web Security in TypeScript." It's a tiny plushie shop built with TypeScript, Express, and SQLite.
-
-> [!IMPORTANT] This README describes the freshly cloned starter project from lesson 1.2. Course assignments will change the app's behavior, but this file remains a reference for the initial baseline.
+Bearly Secure is a intentionally vulnerable starter app. It's a tiny plushie shop built with TypeScript, Express, and SQLite.
 
 ## Requirements
 
