@@ -51,7 +51,14 @@ export function createApp(deps: Dependencies): express.Express {
   app.use((_req, res, next) => {
     const cspNonce = randomBytes(16).toString("base64");
     res.locals.cspNonce = cspNonce;
-    next();
+    res.set({
+      'Content-Type': 'text/plain',
+      'X-Content-Type-Options': 'nosniff',
+      
+    });
+
+     next();
+
   });
 
   app.get("/health", (_req, res) => {
